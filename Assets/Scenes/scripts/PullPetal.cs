@@ -18,6 +18,7 @@ public class BreakApartOnActivate : MonoBehaviour
 
     //Creating Interactables and Interactor
     public XRGrabInteractable flower;
+    public XRBaseInteractable interactor;
     public Component[] petals;
     private int petalCounter;
     public InputActionReference pullPetalAction;
@@ -44,14 +45,15 @@ public class BreakApartOnActivate : MonoBehaviour
         //for (int i = 0; i < petals.Length; i++)
         //{
             //Rigidbody rb = (Rigidbody)petals[i];
-            rb.isKinematic = false;
-            rb.useGravity = true;
-            rb.transform.parent = null;
-            rb.AddExplosionForce(explosionForce,
-                                    flower.transform.position,
-                                    explosionRadius,
-                                    0.1f);
-            petalCounter++;
+        rb.isKinematic = false;
+        rb.useGravity = true;
+        rb.transform.parent = null;
+        rb.AddExplosionForce(explosionForce,
+                                flower.transform.position,
+                                explosionRadius,
+                                0.1f);
+        petalCounter++;
+        Debug.Log(interactor.selectEntered.ToString());
         //}
     }
 }
