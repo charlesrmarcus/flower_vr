@@ -3276,7 +3276,7 @@ GameObject:
   - component: {fileID: 490405551}
   - component: {fileID: 490405553}
   - component: {fileID: 490405552}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3645,7 +3645,7 @@ GameObject:
   - component: {fileID: 548012172}
   - component: {fileID: 548012171}
   - component: {fileID: 548012170}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: petal7_message
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3784,10 +3784,10 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
+  m_UseGravity: 1
+  m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!1001 &576071107
 PrefabInstance:
@@ -4494,6 +4494,29 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 673165783698793177, guid: 0fbc1ff1bdd864ea1a318d706b9665aa, type: 3}
   m_PrefabInstance: {fileID: 640301020}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &645124295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825785604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a1302d0d134fa8a2a5b3bf4aec3c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PermittedDisplacementAxes: 7
+  m_ConstrainedAxisDisplacementMode: 1
+  m_TwoHandedRotationMode: 1
+  m_AllowOneHandedScaling: 1
+  m_AllowTwoHandedScaling: 0
+  m_OneHandedScaleSpeed: 0.5
+  m_ThresholdMoveRatioForScale: 0.05
+  m_ClampScaling: 1
+  m_MinimumScaleRatio: 0.25
+  m_MaximumScaleRatio: 2
+  m_ScaleMultiplier: 0.25
 --- !u!1001 &645628039
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4618,6 +4641,29 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3018800214906026976, guid: 109b89959e9e44f08a578ea27c235f50, type: 3}
   m_PrefabInstance: {fileID: 670618872}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &677948897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627027697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a1302d0d134fa8a2a5b3bf4aec3c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PermittedDisplacementAxes: 7
+  m_ConstrainedAxisDisplacementMode: 1
+  m_TwoHandedRotationMode: 1
+  m_AllowOneHandedScaling: 1
+  m_AllowTwoHandedScaling: 0
+  m_OneHandedScaleSpeed: 0.5
+  m_ThresholdMoveRatioForScale: 0.05
+  m_ClampScaling: 1
+  m_MinimumScaleRatio: 0.25
+  m_MaximumScaleRatio: 2
+  m_ScaleMultiplier: 0.25
 --- !u!4 &682711744 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5556032914392612086, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
@@ -4791,7 +4837,7 @@ GameObject:
   - component: {fileID: 716670559}
   - component: {fileID: 716670558}
   - component: {fileID: 716670557}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: petal1_message
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5056,7 +5102,7 @@ GameObject:
   - component: {fileID: 746198783}
   - component: {fileID: 746198785}
   - component: {fileID: 746198784}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5691,7 +5737,7 @@ GameObject:
   - component: {fileID: 866939936}
   - component: {fileID: 866939935}
   - component: {fileID: 866939934}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: petal2_message
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5855,7 +5901,7 @@ GameObject:
   - component: {fileID: 879709576}
   - component: {fileID: 879709575}
   - component: {fileID: 879709574}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: petal3_message
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5957,7 +6003,7 @@ GameObject:
   - component: {fileID: 882822570}
   - component: {fileID: 882822569}
   - component: {fileID: 882822568}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: petal4_message
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6278,7 +6324,7 @@ GameObject:
   - component: {fileID: 933210065}
   - component: {fileID: 933210067}
   - component: {fileID: 933210066}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6574,10 +6620,10 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
+  m_UseGravity: 1
+  m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!1001 &967451128
 PrefabInstance:
@@ -7064,6 +7110,29 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 203350762259733423, guid: ce921be15a4524fd2ab27ffc5399b475, type: 3}
   m_PrefabInstance: {fileID: 1018147351}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1019543192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807311043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a1302d0d134fa8a2a5b3bf4aec3c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PermittedDisplacementAxes: 7
+  m_ConstrainedAxisDisplacementMode: 1
+  m_TwoHandedRotationMode: 1
+  m_AllowOneHandedScaling: 1
+  m_AllowTwoHandedScaling: 0
+  m_OneHandedScaleSpeed: 0.5
+  m_ThresholdMoveRatioForScale: 0.05
+  m_ClampScaling: 1
+  m_MinimumScaleRatio: 0.25
+  m_MaximumScaleRatio: 2
+  m_ScaleMultiplier: 0.25
 --- !u!1001 &1028389969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7304,7 +7373,7 @@ GameObject:
   - component: {fileID: 1093084190}
   - component: {fileID: 1093084192}
   - component: {fileID: 1093084191}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8730,10 +8799,10 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
+  m_UseGravity: 1
+  m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!1001 &1323441735
 PrefabInstance:
@@ -9357,7 +9426,7 @@ GameObject:
   - component: {fileID: 1464951479}
   - component: {fileID: 1464951478}
   - component: {fileID: 1464951477}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: petal6_message
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9727,11 +9796,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7517549319329480235, guid: 521327bdbcb341f782d36f02cab76cb0, type: 3}
       propertyPath: m_Constraints
-      value: 0
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 7517549319329480235, guid: 521327bdbcb341f782d36f02cab76cb0, type: 3}
       propertyPath: m_IsKinematic
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -9982,7 +10051,7 @@ GameObject:
   - component: {fileID: 1553678214}
   - component: {fileID: 1553678216}
   - component: {fileID: 1553678215}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10612,10 +10681,10 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
+  m_UseGravity: 1
+  m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!1001 &1620002285
 PrefabInstance:
@@ -10830,10 +10899,10 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
+  m_UseGravity: 1
+  m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!1001 &1628892210
 PrefabInstance:
@@ -10959,6 +11028,29 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7049242156702734691, guid: f173ccc1aaf864f63a34cf9f7eccc1e4, type: 3}
   m_PrefabInstance: {fileID: 1650928401}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1651749834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321721570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a1302d0d134fa8a2a5b3bf4aec3c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PermittedDisplacementAxes: 7
+  m_ConstrainedAxisDisplacementMode: 1
+  m_TwoHandedRotationMode: 1
+  m_AllowOneHandedScaling: 1
+  m_AllowTwoHandedScaling: 0
+  m_OneHandedScaleSpeed: 0.5
+  m_ThresholdMoveRatioForScale: 0.05
+  m_ClampScaling: 1
+  m_MinimumScaleRatio: 0.25
+  m_MaximumScaleRatio: 2
+  m_ScaleMultiplier: 0.25
 --- !u!1001 &1660869649
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11838,7 +11930,7 @@ GameObject:
   - component: {fileID: 1753644800}
   - component: {fileID: 1753644802}
   - component: {fileID: 1753644801}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11972,7 +12064,7 @@ GameObject:
   - component: {fileID: 1753646353}
   - component: {fileID: 1753646355}
   - component: {fileID: 1753646354}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12392,10 +12484,10 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
+  m_UseGravity: 1
+  m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!1001 &1821676958
 PrefabInstance:
@@ -12508,10 +12600,10 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
+  m_UseGravity: 1
+  m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!1001 &1831590945
 PrefabInstance:
@@ -12587,7 +12679,7 @@ GameObject:
   - component: {fileID: 1835275205}
   - component: {fileID: 1835275204}
   - component: {fileID: 1835275203}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: petal5_message
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12788,10 +12880,10 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
+  m_UseGravity: 1
+  m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!4 &1859654793 stripped
 Transform:
@@ -12933,6 +13025,29 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 0
+--- !u!114 &1859654797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859654786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a1302d0d134fa8a2a5b3bf4aec3c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PermittedDisplacementAxes: 7
+  m_ConstrainedAxisDisplacementMode: 1
+  m_TwoHandedRotationMode: 1
+  m_AllowOneHandedScaling: 1
+  m_AllowTwoHandedScaling: 0
+  m_OneHandedScaleSpeed: 0.5
+  m_ThresholdMoveRatioForScale: 0.05
+  m_ClampScaling: 1
+  m_MinimumScaleRatio: 0.25
+  m_MaximumScaleRatio: 2
+  m_ScaleMultiplier: 0.25
 --- !u!1001 &1866187032
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13115,7 +13230,7 @@ GameObject:
   - component: {fileID: 1870432182}
   - component: {fileID: 1870432181}
   - component: {fileID: 1870432180}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: petal8_message
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13507,7 +13622,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8532974461762830131, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -7686708251995263003, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -13515,15 +13630,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0b05aa44325929441a9d1ccc57d5e823, type: 2}
     - target: {fileID: -6345821590192254154, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -6337856338298766223, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -5576146947131306697, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -5468265477288437376, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -13531,7 +13646,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0b05aa44325929441a9d1ccc57d5e823, type: 2}
     - target: {fileID: -2509029094508897527, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 177443275919839717, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -13539,7 +13654,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0b05aa44325929441a9d1ccc57d5e823, type: 2}
     - target: {fileID: 298340083638691708, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       propertyPath: m_Name
@@ -13559,7 +13674,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: dfd2747e4c5c0c2418b3a33361a2458e, type: 2}
     - target: {fileID: 2924733704159003990, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3127216619873419578, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -13571,7 +13686,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0b05aa44325929441a9d1ccc57d5e823, type: 2}
     - target: {fileID: 7667712491461135715, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8006945285586746233, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -13620,6 +13735,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -5576146947131306697, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1926530106}
+    - targetCorrespondingSourceObject: {fileID: -5576146947131306697, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1926530112}
     - targetCorrespondingSourceObject: {fileID: 298340083638691708, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1321721572}
@@ -13629,6 +13747,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 298340083638691708, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 461415820}
+    - targetCorrespondingSourceObject: {fileID: 298340083638691708, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1651749834}
     - targetCorrespondingSourceObject: {fileID: 7667712491461135715, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1859654788}
@@ -13638,6 +13759,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7667712491461135715, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1859654794}
+    - targetCorrespondingSourceObject: {fileID: 7667712491461135715, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1859654797}
     - targetCorrespondingSourceObject: {fileID: -6345821590192254154, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1608357793}
@@ -13647,6 +13771,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -6345821590192254154, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1926530104}
+    - targetCorrespondingSourceObject: {fileID: -6345821590192254154, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1926530111}
     - targetCorrespondingSourceObject: {fileID: -8532974461762830131, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1825785606}
@@ -13656,6 +13783,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8532974461762830131, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1098894432}
+    - targetCorrespondingSourceObject: {fileID: -8532974461762830131, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 645124295}
     - targetCorrespondingSourceObject: {fileID: -2509029094508897527, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1807311045}
@@ -13665,6 +13795,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2509029094508897527, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1926530102}
+    - targetCorrespondingSourceObject: {fileID: -2509029094508897527, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1019543192}
     - targetCorrespondingSourceObject: {fileID: -6337856338298766223, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 575831244}
@@ -13674,6 +13807,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -6337856338298766223, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1942629548}
+    - targetCorrespondingSourceObject: {fileID: -6337856338298766223, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1942629551}
     - targetCorrespondingSourceObject: {fileID: 2924733704159003990, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1627027699}
@@ -13683,6 +13819,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2924733704159003990, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 994569089}
+    - targetCorrespondingSourceObject: {fileID: 2924733704159003990, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 677948897}
   m_SourcePrefab: {fileID: 100100000, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
 --- !u!4 &1926530093 stripped
 Transform:
@@ -14136,6 +14275,52 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 0
+--- !u!114 &1926530111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608357791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a1302d0d134fa8a2a5b3bf4aec3c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PermittedDisplacementAxes: 7
+  m_ConstrainedAxisDisplacementMode: 1
+  m_TwoHandedRotationMode: 1
+  m_AllowOneHandedScaling: 1
+  m_AllowTwoHandedScaling: 0
+  m_OneHandedScaleSpeed: 0.5
+  m_ThresholdMoveRatioForScale: 0.05
+  m_ClampScaling: 1
+  m_MinimumScaleRatio: 0.25
+  m_MaximumScaleRatio: 2
+  m_ScaleMultiplier: 0.25
+--- !u!114 &1926530112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945441625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a1302d0d134fa8a2a5b3bf4aec3c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PermittedDisplacementAxes: -1
+  m_ConstrainedAxisDisplacementMode: 1
+  m_TwoHandedRotationMode: 1
+  m_AllowOneHandedScaling: 1
+  m_AllowTwoHandedScaling: 0
+  m_OneHandedScaleSpeed: 0.5
+  m_ThresholdMoveRatioForScale: 0.05
+  m_ClampScaling: 1
+  m_MinimumScaleRatio: 0.25
+  m_MaximumScaleRatio: 2
+  m_ScaleMultiplier: 0.25
 --- !u!1001 &1937177225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14333,6 +14518,29 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 0
+--- !u!114 &1942629551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575831242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a1302d0d134fa8a2a5b3bf4aec3c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PermittedDisplacementAxes: 7
+  m_ConstrainedAxisDisplacementMode: 1
+  m_TwoHandedRotationMode: 1
+  m_AllowOneHandedScaling: 1
+  m_AllowTwoHandedScaling: 0
+  m_OneHandedScaleSpeed: 0.5
+  m_ThresholdMoveRatioForScale: 0.05
+  m_ClampScaling: 1
+  m_MinimumScaleRatio: 0.25
+  m_MaximumScaleRatio: 2
+  m_ScaleMultiplier: 0.25
 --- !u!1001 &1965388921
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15362,7 +15570,7 @@ GameObject:
   - component: {fileID: 2124122646}
   - component: {fileID: 2124122648}
   - component: {fileID: 2124122647}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
