@@ -27,7 +27,7 @@ public class BreakApartOnActivate : MonoBehaviour
     {
         flower = GetComponent<XRGrabInteractable>();
         petals = flower.GetComponentsInChildren<Rigidbody>();
-        petalCounter = 3;
+        petalCounter = 2;
         pullPetalAction.action.Enable();
         pullPetalAction.action.performed += OnActivate;
     }
