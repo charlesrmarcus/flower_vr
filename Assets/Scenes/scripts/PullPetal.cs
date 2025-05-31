@@ -53,7 +53,12 @@ public class BreakApartOnActivate : MonoBehaviour
                                 explosionRadius,
                                 0.1f);
         petalCounter++;
-        Debug.Log(interactor.selectEntered.ToString());
+        //Debug.Log(interactor.selectEntered.ToString());
         //}
+    }
+
+    public void petalAction()
+    {
+        Debug.Log("petal selected");
     }
 }
