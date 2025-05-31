@@ -2896,7 +2896,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 448402594}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
@@ -3921,7 +3921,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 575831242}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f1c93f313856f304c89127e4b6640541, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3930,7 +3930,7 @@ MeshCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 5
   m_Convex: 1
@@ -3962,7 +3962,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!1001 &576071107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6376,11 +6376,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcc28f1b5ef7f1642b795d302c221bda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionForce: 3
-  explosionRadius: 0.5
+  explosionForce: 2
+  explosionRadius: 0.25
   flower: {fileID: 916571251}
   interactor: {fileID: 916571251}
-  petals: []
+  petals:
+  - {fileID: 0}
   pullPetalAction: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1001 &919646016
 PrefabInstance:
@@ -6714,7 +6715,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 945441625}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f1c93f313856f304c89127e4b6640541, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -6723,7 +6724,7 @@ MeshCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 5
   m_Convex: 1
@@ -6755,7 +6756,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!1001 &967451128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8868,7 +8869,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1321721570}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f1c93f313856f304c89127e4b6640541, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -8877,7 +8878,7 @@ MeshCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 5
   m_Convex: 1
@@ -8909,7 +8910,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!1001 &1323441735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10750,7 +10751,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608357791}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f1c93f313856f304c89127e4b6640541, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -10759,7 +10760,7 @@ MeshCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 5
   m_Convex: 1
@@ -10791,7 +10792,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!1001 &1620002285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10968,7 +10969,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1627027697}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f1c93f313856f304c89127e4b6640541, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -10977,7 +10978,7 @@ MeshCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 5
   m_Convex: 1
@@ -11009,7 +11010,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!1001 &1628892210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12530,7 +12531,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1807311043}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f1c93f313856f304c89127e4b6640541, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -12539,7 +12540,7 @@ MeshCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 5
   m_Convex: 1
@@ -12571,7 +12572,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!1001 &1821676958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12646,7 +12647,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825785604}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f1c93f313856f304c89127e4b6640541, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -12655,7 +12656,7 @@ MeshCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 5
   m_Convex: 1
@@ -12687,7 +12688,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!1001 &1831590945
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12926,7 +12927,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859654786}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f1c93f313856f304c89127e4b6640541, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -12935,7 +12936,7 @@ MeshCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 5
   m_Convex: 1
@@ -12967,7 +12968,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!4 &1859654793 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 412734940470779426, guid: ac7ef6738a41e9c4c889f5c369f6469a, type: 3}
@@ -15427,16 +15428,16 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093553010}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f1c93f313856f304c89127e4b6640541, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.95, y: 0, z: 1.45}
@@ -15883,6 +15884,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.217
       objectReference: {fileID: 0}
+    - target: {fileID: 6730047465828243816, guid: b694a2a231ead7a44a9c837af4cbf2b7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7183008374789339806, guid: b694a2a231ead7a44a9c837af4cbf2b7, type: 3}
       propertyPath: m_Name
       value: field
@@ -15893,7 +15898,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 90e45822b4dd23e43ae915e81292ae1d, type: 2}
     - target: {fileID: 9045370089949428002, guid: b694a2a231ead7a44a9c837af4cbf2b7, type: 3}
       propertyPath: m_ProvidesContacts
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045370089949428002, guid: b694a2a231ead7a44a9c837af4cbf2b7, type: 3}
+      propertyPath: m_IncludeLayers.m_Bits
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
